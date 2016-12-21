@@ -1,0 +1,12 @@
+header {
+    height: 800px;
+    color: beige;
+    background-image: url(./img/index_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+nav {
+    position: fixed;    
+}
