@@ -4,33 +4,69 @@
     <meta charset="UTF-8">
     <title>Пекарня Хлебушек</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <header>
      <div class="container">
-         <nav class="row">
-             <div class="left_side_nav">
+         <div class="row">
+             <div class="left_side_fix col-md-4 fix">
                  <p>Хлебушек</p>
              </div>
-             <div class="right_side_nav">
-                  <ul>
+             <div class="right_side_fix col-md-8 fix">
+                  <ul class="top_nav">
                        <li>О нас</li>
                        <li>Меню, заказ</li>
                        <li>Скидки, акции</li>
                        <li>Рецепты</li>
                        <li>Контакты</li>       
-                       <li>vk</li>
-                       <li>inst</li>
+                       <li><a href="https://vk.com/club130731813">
+                       <i class="fa fa-vk" aria-hidden="true"></i> </a></li>
+                       <li><a href="https://www.instagram.com/hlebushek_spb/">
+                       <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
                </ul>
              </div>   
-          </nav>        
+          </div>        
 
-          <div class="logo_header">
-
+          <div class="logo_header row">
+              <div class="col-md-12">
+                  <img class="big_logo" src="./img/logo.png" alt="">
+                  <p>Основана в 2016г.</p>
+              </div>
           </div> 
       </div>
    </header>
+   <section class="about container">
+       <div class="row">
+           <div class="col-md-6 about_item">
+               <h2>О нас</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sequi quae placeat dicta, vel officia. Cum veniam voluptatum sunt omnis, cumque sed minus saepe placeat odio aliquid blanditiis error consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio debitis cum minima, consequatur, facilis. Optio delectus, iste quia ab voluptate natus saepe nisi esse aut eius reprehenderit, nulla, ratione.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aspernatur ipsam itaque atque et, debitis adipisci iste error. Mollitia ullam pariatur fuga temporibus quam explicabo distinctio labore possimus earum assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aspernatur ipsam itaque atque et, debitis adipisci iste error. Mollitia ullam pariatur fuga temporibus quam explicabo distinctio labore possimus earum assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aspernatur ipsam itaque atque et, debitis adipisci iste error. Mollitia ullam pariatur fuga temporibus quam explicabo distinctio labore possimus earum assumenda.</p>
+           </div>
+           <div class="col-md-6 about_item_img">
+               <img src="./img/about_us.jpg" alt="">
+           </div>
+       </div>
+   </section>
+   
+   <section class="contacts">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+                   <h2>Как нас найти</h2>
+                   <p>Адрес: СПб, Курортный р-н, В.Боброва 25</p>
+                   <p>Время работы: ........</p>
+                   <p>Телефон: .........</p>
+                   <p><a href="https://vk.com/club130731813">
+                    <i class="fa fa-vk" aria-hidden="true"></i> </a> <a href="https://www.instagram.com/hlebushek_spb/"> <i class="fa fa-instagram" aria-hidden="true"></i> </a></p>
+               </div>
+               <div class="col-md-6">
+                   <h2>Тут будет карта</h2>
+               </div>
+           </div>
+       </div>
+   </section>
     
 </body>
 </html>

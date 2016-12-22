@@ -5,8 +5,111 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    text-shadow: black 1px 1px 1px
 }
 
-nav {
-    position: fixed;    
+/*
+.header_darker {   
+    background-color: rgba(0, 0, 0, 0.2);
+}
+*/
+
+/*
+@media screen and (max-width: 900px) {
+.container {width: 1000px;
+            margin: auto}
+}
+*/
+
+.fix {
+    position: fixed;
+    z-index: 2;    
+}
+
+.left_side_fix,
+.right_side_fix {
+    line-height: 80px;
+    font-size: 2vh;
+    text-transform: uppercase;    
+    
+}
+
+.left_side_fix {
+    margin-right: 50px
+}
+
+.right_side_fix {
+    padding-left: 0;
+    text-align: right;
+    right: 0
+}
+.top_nav{
+    float: right;
+    width: 100%
+}
+.top_nav li {
+    display: block;
+    float: left;
+    padding: 0 1.5%;     
+}
+
+.top_nav a {
+    text-decoration: none;
+    color: beige;
+}
+.logo_header {
+    padding-top: 200px;
+    margin: auto;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.logo_header p {
+    padding-top: 20px;
+}
+
+.big_logo {
+    width: 25%;
+    min-width: 200px;
+    position: relative;
+    margin: auto;
+}
+
+.logo_header p {
+    margin-top: 10px;    
+}
+
+.about {
+    padding: 80px 0;  
+}
+
+.about h2 {
+    padding-top: 20px;
+}
+
+.about p {
+    padding-top: 15px;
+}
+
+.about_item {
+    margin: auto;
+    text-align: center
+}
+
+.about img {
+    width: 100%;
+    border-radius: 50%
+}
+    
+.contacts {
+    background-color: Tan;
+    height: 350px;    
+}   
+
+.contacts h2 {
+    padding-top: 20px
+}
+
+.contacts a {    
+    font-size: 30px;
 }
